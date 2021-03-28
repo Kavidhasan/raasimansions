@@ -1,0 +1,191 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Inter',sans-serif;
+}
+
+.bg{
+    background-color: #111215;
+}
+
+.navbar-brand{
+    margin-left: 40px;
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.fa-bars{
+    color: white;
+}
+
+.navbar-collapse{
+    text-align: center;
+}
+
+.nav-link{
+    color: white;
+    margin-right: 20px;
+    transition: color 0.5s ease;
+}
+
+.nav-link:hover{
+    color: rgb(153, 153, 153);
+}
+
+.booking-form{
+    margin: 120px 80px;
+    background-color: white;
+    padding: 20px;
+    border: rgb(194, 194, 194) solid 0.1px;
+    border-radius: 5px;
+}
+
+.booking-form h1{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.booking-form p{
+    text-align: center;
+}
+
+.booking-form hr{
+    margin-bottom: 30px;
+}
+
+.booking-form .cancel{
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+#owner{
+    padding-top: 10%;
+    text-align: center;
+}
+
+#owner .container .row .pic{
+    background-color: white;
+    border: rgb(221, 221, 221) solid 0.1px;
+    border-radius: 2px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+#owner .container .row .pic img{
+    margin: 10px;
+    border: rgb(221, 221, 221) solid 0.1px;
+    border-radius: 2px;
+}
+
+#owner .container .row .pic .name{
+    color: #1d1d1d;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 0%;
+
+}
+
+#owner .container .row .pic p{
+    color: rgb(167, 167, 167);
+    font-size: 14px;
+}
+
+#owner .container .row .pic i{
+    display: inline;
+}
+
+#owner .container .row .pic .number{
+    color: #1d1d1d;
+}
+
+#owner .container .row .other{
+    background-color: white;
+    border: rgb(221, 221, 221) solid 0.1px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+#owner .container .row .other .subsi{
+    margin-top: 10px;
+    margin-bottom: 6px;
+    color: #1d1d1d;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+#owner .container .row .other .head{
+    color: rgb(167, 167, 167);
+    font-size: 18px;  
+    margin-top: 10px;  
+}
+
+#owner .btn{
+    margin-top: 20px;
+}
+
+.hotelpic{
+    padding: 7% 12% 3%;
+}
+
+.hotelpic img{
+    height: 300px;
+    padding-bottom: 20px;
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.hotelpic p{
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 0%;
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .booking-form{
+    padding: 20px;
+    width: 250px;
+    margin: 120px 20%;
+  }
+
+  .booking-form h1{
+    font-size: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  input[type="text"]{
+    width: 200px;
+  }
+
+  #owner{
+    padding-top: 25%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 100%;
+  }
+
+  #owner .container .row .pic{
+      margin-bottom: 10px;
+      margin-right: 0px;
+  }
+
+  #owner .container .row .pic img{
+    margin: 10px;
+  }
+
+  #owner .container .row .other{
+      text-align: center;
+  }
+
+  .hotelpic{
+      padding-top: 25%;
+  }
+
+}

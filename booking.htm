@@ -1,0 +1,110 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Booking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="booking.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://use.fontawesome.com/d7906df177.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    
+    <nav class="navbar navbar-expand-lg fixed-top bg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./final apart.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.htm">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./gallery.htm">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.htm">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Form -->
+
+    <div class="booking-form">
+        <h1>Booking Form</h1>
+        <p>(2 Persons per room)</p>
+        <hr>
+     <form class="row g-3" action="https://formcarry.com/s/T1SBtvwM5A" method="POST" accept-charset="UTF-8">
+        <div class="col-lg-6">
+            <label class="form-label">Fullname</label>
+            <input type="text" class="form-control" id="fullName" name="FullName" required>
+        </div>
+        <div class="col-lg-6">
+            <label class="form-label">Mobile Number</label>
+            <input type="text" class="form-control" id="mobileno" name="Mobie Number" required>
+        </div>
+        <div class="col-lg-6">
+            <label class="form-label">Check-in date and time</label>
+            <input type="datetime-local" class="form-control" id="checkin" name="Check-in">
+        </div>
+        <div class="col-lg-6">
+            <label class="form-label">Check-out date and time</label>
+            <input type="datetime-local" class="form-control" id="checkout" name="Check-out">
+        </div>
+        <div class="col-md-4">
+            <label class="form-label">Number of nights</label>
+            <input type="number" class="form-control" id="nights" name="Number of nights">
+        </div>
+        <div class="col-md-4">
+            <label class="form-label">Number of persons</label>
+            <input type="number" class="form-control" id="persons" name="Number of persons">
+        </div>
+        <div class="col-md-4">
+            <label class="form-label">Number of rooms</label>
+            <input type="number" class="form-control" id="rooms" name="Number of rooms">
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Confirm</button>
+            <a class="cancel" href="./index.htm">Cancel</a>
+        </div>
+        <input type="hidden" name="_next" value="https://raasimansions.in">
+     </form>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <script>
+
+    </script>
+</body>
+</html>

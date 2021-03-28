@@ -1,0 +1,198 @@
+body{
+    font-family: 'Inter','san-serif';
+    text-align: center;
+}
+
+p{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/Group\ 8.png');
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+header img{
+    padding-top: 17%;
+}
+
+
+header h1{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding: 2% 1% 0;
+}
+
+header .btn{
+    font-weight: 500;
+    background-color: yellow;
+    transition: all .5s ease;
+}
+
+header .btn:hover{
+    background-color: rgb(204, 204, 23);    
+}
+
+.bg{
+    background-color: transparent;
+    transition: all .5s ease;
+}
+
+.bg.scrolled{
+    background-color: #111215;
+}
+
+.navbar-brand{
+    margin-left: 30px;
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.fa-bars{
+    color: white;
+}
+
+.navbar-collapse{
+    text-align: center;
+}
+
+.nav-link{
+    color: white;
+    margin-right: 20px;
+    transition: color 0.5s ease;
+}
+
+.nav-link:hover{
+    color: rgb(153, 153, 153);
+}
+
+.row{
+    margin: 70px;
+}
+
+.faci-head h3{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #343434;
+}
+
+.facility{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.faci-title{
+    color: #343434;
+    font-weight: 700;
+}
+
+.faci-detail{
+    color: #989898;
+    font-weight: 500;
+}
+
+
+footer{
+    background-color: #111215;
+    color: white;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+footer .container{
+    padding-top: 2%;
+}
+
+footer a{
+    text-decoration: none;
+    margin: 10px;
+    color: #fff;
+    transition: color 0.5s ease;
+    padding-right: 5px
+}
+
+footer a:hover{
+    color: rgb(153, 153, 153);
+}
+
+
+footer img{
+    display: inline-block;
+    margin-bottom: 7px;
+    width: 100px;
+}
+
+footer .addr{
+    
+}
+
+footer p{
+    align-items: flex-start;
+}
+
+footer .fa{
+    color: #fff;
+}
+
+
+footer li{
+    list-style: none;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.hotelpic img{
+    justify-content: center;
+    width: 250px;
+    height: 300px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    header{
+        text-align: center;
+        height: 70vh;
+    }
+
+    header img{
+        padding-top: 50%;
+    }
+
+    header h1{
+        font-size: 24px;
+        padding-top: 2%;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+
+    footer img{
+        margin-bottom: 7px;
+    }
+
+    footer .menu{
+        display: none;
+    }
+
+    footer p{
+        padding-bottom: 30px;
+    }
+
+    .hotelpic img{
+        padding-bottom: 15px;
+        width: 100%;
+    }
+}
