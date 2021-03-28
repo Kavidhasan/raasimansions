@@ -179,6 +179,11 @@ footer li{
         padding-left: 2%;
     }
 
+    footer .row{
+        justify-content: start;
+    
+    }
+    
     footer img{
         margin-bottom: 7px;
     }
@@ -193,5 +198,6 @@ footer li{
     
     .hotelpic img{
         padding-bottom: 15px;
+        width: 100%;
     }
 }
