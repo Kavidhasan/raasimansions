@@ -191,8 +191,13 @@ footer li{
         padding-bottom: 30px;
     }
 
+    .hotelpic{
+        padding-left: 3%;
+        padding-right: 3%;        
+    }
+    
     .hotelpic img{
         padding-bottom: 15px;
-        width: 300px;
+        width: 100%;
     }
 }
